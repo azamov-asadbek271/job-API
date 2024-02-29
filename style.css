@@ -36,9 +36,8 @@ body {
 }
 
 body {
-    width: 100%;
     background-color: #EFFAFA;
-    font-weight: 700    ;
+    font-weight: 700;
 }
 .box-top {
     width: 100%;
@@ -64,6 +63,7 @@ body {
 
 /* javaSCRIPT */
 .item {
+        width: 100%;
     background-color: #ffff;
     border-radius: 10px;
     display: flex;
