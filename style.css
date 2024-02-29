@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap);
+
+
+body {
+  font-family: 'League Script', handwriting;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    width: 100%;
+    background-color: #EFFAFA;
+    font-weight: 700    ;
+}
+.box-top {
+    width: 100%;
+    height: 180px;
+    background-color: #5CA5A5;
+}
+.container {
+    width: 100%;
+    max-width: 1400px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+    
+}
+
+/* javaSCRIPT */
+.item {
+    background-color: #ffff;
+    border-radius: 10px;
+    display: flex;
+    padding: 20px;
+    gap: 50px;
+    list-style: none;
+    padding-right: 40px;
+        padding-left: 40px;
+}
+
+
+/* hero box */
+.hero-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.company {
+  color: #5CA5A5;
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 10px;
+}
+.new {
+    width: 60px;
+    height: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    border-radius: 40px;
+    font-size: 14px;
+    line-height: 14px;
+    background-color: #5CA5A5;
+    color: #FFFF;
+}
+.featured {
+    width: 95px;
+    height: 28px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    background-color: black;
+    color: #FFFF;
+}
+.new-job {
+    font-size: 21px;
+    line-height: 22px;
+}
+.main-box {
+    margin-right: auto;
+}
+.cta-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 15px;
+    font-weight: 500;
+    width: 320px;
+}
+.images {
+    width: 98px;
+    height: 98px;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+}
+.lenguages {
+    display: flex;
+    gap: 30px;
+}
+.title {
+    padding: 8px 10px 8px 10px;
+    background-color: #EFFAFA;
+    border-radius: 5px;
+    color: #5CA5A5;
+}
